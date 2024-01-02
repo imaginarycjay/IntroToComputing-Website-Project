@@ -1,0 +1,182 @@
+/* @media (max-width: 1095px) {
+   .organizationLogo {
+      right: 4%;
+   }
+}
+
+@media (max-width: 992px) {
+   .header {
+      padding: 0.6rem 5%;
+   }
+   .organizationLogo {
+      right:1.1%;
+   }
+}
+
+@media (max-width:935px) {
+
+   .organizationLogo {
+      position: absolute;
+      bottom: 0;
+      left: 23%;
+      transform: translateY(23%);
+   }
+}
+
+@media (max-width: 795px) {
+   .icons {
+      display: inline-flex;
+   }
+
+   #check:checked~.icons #menu-icon {
+      display: none;
+   }
+
+   .icons #close-icon {
+      display: none;
+   }
+
+   #check:checked~.icons #close-icon {
+      display: block;
+   }
+
+   .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 0;
+      background:blue ;
+      box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+      overflow: hidden;
+      transition: .3s ease;
+   }
+
+   #check:checked~.navbar{
+      height: 14.7rem;
+   }
+
+   .navbar a {
+      display: block;
+      font-size: 1.1rem;
+      margin: 1.5rem 0;
+      text-align: center;
+      transform: translateY(-50px);
+      transition: .3s ease;
+      opacity: 0;
+   }
+
+
+   #check:checked~.navbar a{
+      transform: translateY(0px);
+      transition-delay: calc(.15 * var(--i));
+      opacity: 1;
+   }
+}
+
+@media (max-width: 680px){
+   .home-container0 {
+      max-width: 70%;
+   }
+   .home-container1 {
+      top: 48%;
+      max-width: 70%;
+   }
+   
+   .organizationLogo {
+      left: 8%;
+      transform: translateY(30%);
+   }
+}
+
+@media (max-width: 580px) {
+   .doh-logo {
+      width: 6.4em;
+   }
+   .fda-logo {
+      width: 7.3em;
+   }
+   .organizationLogo {
+      left: 8%;
+      transform: translateY(35%);
+   }
+}
+@media (max-width: 475px) {
+   .home-container0 {
+      top: 20%;
+   }
+   .welcome-title {
+      font-size: 1.8rem;
+      line-height: 1;
+   }
+   .home-container1 {
+      top: 35%;
+   }
+   .welcome-message {
+      font-size: 0.9rem;
+      line-height: 1.1;
+   }
+   .organizationLogo {
+      left: 8%;
+      transform: translateY(6%);
+   }
+   
+   .doh-logo {
+      width: 6.4em;
+   }
+   .fda-logo {
+      width: 7.3em;
+   }
+
+}
+
+@media (max-width: 400px) {
+   .home-container0 {
+      top: 25%;
+      max-width: 87%;
+   }
+   .welcome-title {
+      font-size: 1.3rem;
+      line-height: 1.8rem;
+   }
+   .home-container1 {
+      top: 35%;
+      max-width: 80%;
+   }
+   .welcome-message {
+      font-size: 0.75rem;
+      line-height: 1rem;
+   }
+
+   .logo-pic {
+      width: 4em;
+   }
+
+   .logo {
+   text-decoration: none;
+   font-size: 1.5rem;
+   font-weight: 650;
+   color: white;
+   }
+} */
+
+
+/* tablet */
+@media (max-width: 768px) {
+   #home {
+      flex-direction: column;
+   }
+   .navbar {
+      display: none;
+   }
+   .hamburger {
+      display: block;
+   }
+}
+
+/* phone */
+@media (max-width: 640px) {
+   .logo {
+      display: none;
+   }
+}
